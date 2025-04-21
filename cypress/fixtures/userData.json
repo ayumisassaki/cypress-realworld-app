@@ -1,4 +1,4 @@
-
+{
     "userSuccess": { 
         "username": "Arvilla_Hegmann" ,
         "password": "s3cret"
@@ -8,3 +8,4 @@
         "username": "teste" ,
         "password": "fail"
     }
+}

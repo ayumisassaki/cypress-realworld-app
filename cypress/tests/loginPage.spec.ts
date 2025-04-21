@@ -1,4 +1,4 @@
-import userDATA from '../fixtures/userData.json'
+import userData from '../fixtures/userData.json'
 
 describe('RWA login Page', () => { 
 
@@ -17,18 +17,8 @@ describe('RWA login Page', () => {
         lastNameAlert: '#lastName-helper-text'
     }
 
-    const userData = {
-        userSuccess: { 
-            username: 'Arvilla_Hegmann' ,
-            password: 's3cret'
-        }, 
-        
-        userFail: {
-            username: 'teste' ,
-            password: 'fail'
-        }
 
-    }
+    
     it('Login with success', () => { 
         cy.visit ('http://localhost:3000/signin')
         cy.get(selectorsList.usernameField).type(userData.userSuccess.username)
