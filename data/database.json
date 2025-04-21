@@ -74,6 +74,28 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "FWzcftzqU",
+      "uuid": "471254af-454d-4f1b-aff7-b7a9eb3b22df",
+      "firstName": "Tatiana",
+      "lastName": "Sassaki",
+      "username": "ayumisassakiddd",
+      "password": "$2a$10$LWao8N8PH/YbCvlmD02w5ODSEVmXO9F8N/rmnoatuLw1HxME.NdZC",
+      "balance": 0,
+      "createdAt": "2025-04-21T19:46:37.862Z",
+      "modifiedAt": "2025-04-21T19:46:37.862Z"
+    },
+    {
+      "id": "FP4lIrTh7",
+      "uuid": "1ae6c8c3-999a-4f83-afb4-2ce32c37098c",
+      "firstName": "Tatiana",
+      "lastName": "Sassaki",
+      "username": "ayumisassaki",
+      "password": "$2a$10$cdRIE07K21.eTcKyfSHsqejgUVZZBiwVPAXyJEBfzTt3EfaIMxWx.",
+      "balance": 0,
+      "createdAt": "2025-04-21T19:50:52.292Z",
+      "modifiedAt": "2025-04-21T19:50:52.292Z"
     }
   ],
   "contacts": [
