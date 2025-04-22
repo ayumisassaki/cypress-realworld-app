@@ -96,6 +96,39 @@
       "balance": 0,
       "createdAt": "2025-04-21T19:50:52.292Z",
       "modifiedAt": "2025-04-21T19:50:52.292Z"
+    },
+    {
+      "id": "lr52NYBG-",
+      "uuid": "ab835856-54e5-4ec4-8613-b3b6b1775b05",
+      "firstName": "Tatiana Ayumi",
+      "lastName": "Sassaki",
+      "username": "ayumisassaki",
+      "password": "$2a$10$WqAC7qPrRtFd9xUJizOmZOafUPGBLiN2JojH0t8te5YzgQYJjUl8u",
+      "balance": 0,
+      "createdAt": "2025-04-22T13:55:32.591Z",
+      "modifiedAt": "2025-04-22T13:55:32.591Z"
+    },
+    {
+      "id": "xBkJo3-wF",
+      "uuid": "25c496a4-06a9-409d-bf7a-00e6e424f287",
+      "firstName": "firstname",
+      "lastName": "lastname",
+      "username": "username",
+      "password": "$2a$10$CouDgl6E9AsFLPu4UuM5Pu/pjE4dhCkO4cEddDATJZzu08a8EnLI2",
+      "balance": 0,
+      "createdAt": "2025-04-22T14:04:39.578Z",
+      "modifiedAt": "2025-04-22T14:04:39.578Z"
+    },
+    {
+      "id": "EvYo3-xWo",
+      "uuid": "9e91889c-02a2-4f56-a131-0377261f1422",
+      "firstName": "firstname",
+      "lastName": "lastname",
+      "username": "username",
+      "password": "$2a$10$2YY6alK3S7P10Ynf4WBOoe/VodbFFVGCdkgHTnEpQOGgHikUghuF6",
+      "balance": 0,
+      "createdAt": "2025-04-22T14:05:58.729Z",
+      "modifiedAt": "2025-04-22T14:05:58.729Z"
     }
   ],
   "contacts": [
