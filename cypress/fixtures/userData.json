@@ -3,6 +3,12 @@
         "username": "Arvilla_Hegmann" ,
         "password": "s3cret"
     }, 
+
+    "newUser": {
+        "username": "ayumisassaki",
+        "password": "s3cret"
+
+    },
     
     "userFail": {
         "username": "teste" ,

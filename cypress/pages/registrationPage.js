@@ -14,7 +14,14 @@ class RegistrationPage {
         userNameAlert: '#username-helper-text',
         passwordAlert: '#password-helper-text',
         confirmPasswordAlert: '#confirmPassword-helper-text',
-
+        bankNameField:"[placeholder='Bank Name']",
+        routingNumberField: "[placeholder='Routing Number']",
+        accountNumberField: "[placeholder='Account Number']",
+        bankAccountFormSubmitButton: ".BankAccountForm-submit",
+        doneButton: ".MuiButton-colorPrimary",
+        bankAccountButton:'[data-test="sidenav-bankaccounts"]',
+        createbankAccountButton: '[data-test="bankaccount-new"]',
+        bankaccountcheck: '.css-mpyo7s-MuiTypography-root'
     }
 
         return selectors
@@ -48,13 +55,23 @@ class RegistrationPage {
 
     checkUserRegistrationFail() {
 
-         cy.get(this.selectorsList().firstNameAlert)
+        cy.get(this.selectorsList().firstNameAlert)
         cy.get(this.selectorsList().lastNameAlert)
         cy.get(this.selectorsList().userNameAlert)
         cy.get(this.selectorsList().passwordAlert)
         cy.get(this.selectorsList().confirmPasswordAlert)
     }
 
+    formBankAccount() {
+        cy.get(this.selectorsList().bankAccountButton).click()
+        cy.get(this.selectorsList().createbankAccountButton).click()
+        cy.get(this.selectorsList().bankNameField).type('bankaccount')
+        cy.get(this.selectorsList().routingNumberField).type(123456789)
+        cy.get(this.selectorsList().accountNumberField).type(123456789)
+        cy.get(this.selectorsList().bankAccountFormSubmitButton).click()
+        cy.get(this.selectorsList().bankaccountcheck).contains('Bank Accounts')
+        
+    }
 
 
 
