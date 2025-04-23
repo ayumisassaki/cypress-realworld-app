@@ -2,20 +2,17 @@ class LoginPage {
 
         selectorsList() {
             const selectors = {
-                usernameField: '#username',
-                passwordField: '#password',
+                usernameField:"[name='username']",
+                passwordField:"[type='password']",
                 signInButton: "[type='submit']",
                 wrongCredentialAlert: '.MuiAlert-message',
                 signUpButton: "[href='/signup']",
                 homePage: '.MuiListSubheader-root',
-               
             }
 
             return selectors 
         }
     
-    
-
         accessLoginPage() {
             cy.visit('http://localhost:3000')
         }
@@ -24,11 +21,9 @@ class LoginPage {
             cy.get(this.selectorsList().usernameField).type(username)
             cy.get(this.selectorsList().passwordField).type(password)
             cy.get(this.selectorsList().signInButton).click()
+        }
 
     
-        
-}
-
 }
 
 export default LoginPage
