@@ -7,7 +7,8 @@ class LoginPage {
                 signInButton: "[type='submit']",
                 wrongCredentialAlert: '.MuiAlert-message',
                 signUpButton: "[href='/signup']",
-                homePage: '.MuiListSubheader-root'
+                homePage: '.MuiListSubheader-root',
+               
             }
 
             return selectors 
@@ -23,6 +24,8 @@ class LoginPage {
             cy.get(this.selectorsList().usernameField).type(username)
             cy.get(this.selectorsList().passwordField).type(password)
             cy.get(this.selectorsList().signInButton).click()
+
+    
         
 }
 

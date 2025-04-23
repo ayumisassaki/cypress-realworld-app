@@ -217,6 +217,17 @@
       "balance": 0,
       "createdAt": "2025-04-22T20:34:00.154Z",
       "modifiedAt": "2025-04-22T20:34:00.154Z"
+    },
+    {
+      "id": "VN1DWdZIt",
+      "uuid": "0d37035b-c9d3-457d-b631-5470aabaf249",
+      "firstName": "firstname",
+      "lastName": "lastname",
+      "username": "username",
+      "password": "$2a$10$hA5jDHjTb5mij1/Z0nww3OIUYR58Tl9MC9Gid9kbupeK9nA4IWJcW",
+      "balance": 0,
+      "createdAt": "2025-04-23T12:57:02.222Z",
+      "modifiedAt": "2025-04-23T12:57:02.222Z"
     }
   ],
   "contacts": [
@@ -462,6 +473,17 @@
       "isDeleted": false,
       "createdAt": "2025-04-22T20:34:06.238Z",
       "modifiedAt": "2025-04-22T20:34:06.238Z"
+    },
+    {
+      "id": "cYRNXu6pm",
+      "uuid": "85d1bba5-c1e0-4efa-9fb9-8ed6289cc770",
+      "userId": "FP4lIrTh7",
+      "bankName": "bankaccount",
+      "accountNumber": "123456789",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2025-04-23T12:57:10.323Z",
+      "modifiedAt": "2025-04-23T12:57:10.323Z"
     }
   ],
   "transactions": [
@@ -10290,6 +10312,14 @@
       "transactionId": "Duc8WQEFqBCm",
       "createdAt": "2023-04-15T16:27:28.535Z",
       "modifiedAt": "2024-03-07T13:31:05.096Z"
+    },
+    {
+      "id": "0oTS7kDZ4",
+      "uuid": "e6945408-8f7c-49e6-a65a-9cc75ac2e3e6",
+      "userId": "GjWovtg2hr",
+      "transactionId": "Ec6hHyL6SC2F",
+      "createdAt": "2025-04-23T13:31:03.413Z",
+      "modifiedAt": "2025-04-23T13:31:03.413Z"
     }
   ],
   "comments": [
@@ -10904,6 +10934,26 @@
       "isRead": false,
       "createdAt": "2025-04-22T21:13:20.485Z",
       "modifiedAt": "2025-04-22T21:13:20.485Z"
+    },
+    {
+      "id": "MlnMh2FWc5",
+      "uuid": "b27d2859-eb02-4887-b5d4-d3415244ccff",
+      "userId": "_XblMqbuoP",
+      "transactionId": "Ec6hHyL6SC2F",
+      "likeId": "0oTS7kDZ4",
+      "isRead": false,
+      "createdAt": "2025-04-23T13:31:03.417Z",
+      "modifiedAt": "2025-04-23T13:31:03.417Z"
+    },
+    {
+      "id": "Yh7wd2q2if",
+      "uuid": "551a7c24-498e-4da5-9bb5-2e3666854f00",
+      "userId": "WHjJ4qR2R2",
+      "transactionId": "Ec6hHyL6SC2F",
+      "likeId": "0oTS7kDZ4",
+      "isRead": false,
+      "createdAt": "2025-04-23T13:31:03.424Z",
+      "modifiedAt": "2025-04-23T13:31:03.424Z"
     }
   ],
   "banktransfers": [

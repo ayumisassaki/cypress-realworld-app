@@ -29,6 +29,7 @@ describe("RWA Tests", () => {
     
         it('send money success', () => {
         transactionPage.sendMoneySuccess()
+        transactionPage.checkSuccessTransactionAllert()
         });
 
     // describe('send money without sufficient funds', () => {

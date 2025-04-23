@@ -22,10 +22,12 @@ class  TransactionPage {
             cy.get(this.selectorsList().amountField).type('100')
             cy.get(this.selectorsList().noteField).type('note')
             cy.get(this.selectorsList().submitPayButton).click()
-            cy.get(this.selectorsList().sucessTransactionAlert).contains('Transaction Submitted')
-
+            
         }
 
+        checkSuccessTransactionAllert() {
+            cy.get(this.selectorsList().sucessTransactionAlert).contains('Transaction Submitted')
+        }
 
 
 }

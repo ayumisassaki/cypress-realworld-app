@@ -5,8 +5,8 @@ const loginPage = new LoginPage()
 
 const selectorsList = {
     wrongCredentialAlert: '.MuiAlert-message',
-    homePage: '.MuiListSubheader-root'
-}
+    homePage: '.MuiListSubheader-sticky'
+    }
 
 
 describe('Login Success', () => { 
@@ -25,7 +25,6 @@ describe('Login with invalid credential', () => {
     })
 
 })
-
 
 
 //     describe('Try to register with missing information', () => {
